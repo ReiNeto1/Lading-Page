@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2? family = Zilla + Slab: ital, wght @ 0,300; 1,700 & display = swap');
+@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&family=Zilla+Slab:ital,wght@1,700&display=swap');
+
+
+*{
+   align-items: center;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background-color:#040403;
+    background-image: linear-gradient(320deg, #ba43ff 60%, #100f0f 54%); 
+
+}
+.cabecalho{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding:24px;
+
+}
+
+.cabecalho-imagem{
+    height:72px;
+}
+
+.cabecalho-menu{
+    display:flex;
+    gap: 32px;
+
+}
+
+.cabecalho-menu-item{
+    font-family: 'Zilla Slab', serif;
+    color:#FFF2EF;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.cabecalho-menu-item:hover{
+        box-shadow:rgba(236, 196, 235, 0.53);;
+        background-color:rgba(236, 196, 233, 0.53);
+}
+
+.conteudo{
+    margin-bottom: 38px;
+    border-top: 0.4px solid #FFF2EF;
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.conteudo-principal-escrito-titulo{
+    align-items: center;
+    font-family: 'Moon Dance', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: #fff2E7;
+}
+
+.conteudo-principal-escrito-subtitulo{
+    font-family: 'Moon Dance', cursive;
+    font-weight: 400;
+    font-size: 30px;
+    color: rgb(255, 255, 255);  
+    padding: 15px;
+
+}
+
+.conteudo-principal-escrito-botao{
+    background-color:#fff2EF;
+    width: 160px;
+    height: 40px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0,0,0,0.25);
+    border-radius:40px;
+    font-family: 'Moon Dance', cursive;
+    width: 400;
+    font-size: 30px;
+    color:#161515;
+    align-items: center;
+}
+
+.conteudo-principal-escrito-botao:hover{
+    background-color:rgba(237, 178, 240, 0.53);
+}
+
+.conteudo-principal-imagem{
+    position: absolute;
+    width: 248px;
+    height: 224px;
+    left: 930px;
+    top: 109px;
+}
+
+.conteudo-secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+    margin-top: 205px;
+
+}
+
+.conteudo-secundario-titulo{
+    border-top: 0.4px solid #FFF2EF;
+    padding-top: 10px;
+    font-family: 'Moon Dance', cursive;
+    font-size: 20px;
+}
+
+.conteudo-secundario-paragrafo{
+    align-items: center;
+    font-family: 'Moon Dance', cursive;
+    font-weight: 400;
+    font-size: 23px;
+    color: #000000;
+}
+
+.rodape{
+    padding:7px;
+    border-top: 0.4px solid #FFF2EF;
+}
+
+.rodape-texto{
+    padding-top: 10px;
+    font-family: 'Moon Dance', cursive;
+    font-size: 35px;
+    color: #fafafa;
+
+}
